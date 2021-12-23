@@ -12,4 +12,4 @@ module.exports = merge(common, {   // 将webpack.common.js合并到当前文件
     port: '8080',
     open: true,
   },
-})
+});

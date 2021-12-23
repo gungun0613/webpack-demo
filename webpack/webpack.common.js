@@ -48,4 +48,4 @@ module.exports = {
         "@": path.resolve(process.cwd(), 'src/')
       },
     },
-}
+};

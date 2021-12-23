@@ -9,4 +9,4 @@ module.exports = merge(common, {// 将webpack.common.js合并到当前文件
     plugins: [
         new CleanWebpackPlugin(),  
     ]
-})
+});

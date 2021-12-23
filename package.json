@@ -9,7 +9,8 @@
     "dev": "webpack-dev-server --open --config webpack/webpack.dev.js",
     "eslint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "author": "",
   "license": "ISC",
