@@ -1,15 +1,8 @@
 import React from "react";
 import "./index.css";
 
-class App extends React.Component {
-  render() {
-    const { title } = this.props;
-    return (
-      <div>
-        <h1 className="red-color">{title}</h1>
-      </div>
-    );
-  }
+function App() {
+  return <div>haode</div>;
 }
 
 export default App;

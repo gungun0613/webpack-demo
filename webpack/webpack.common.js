@@ -30,6 +30,24 @@ module.exports = {
             },
             "css-loader"
           ]
+        },
+        {
+          test:/\.less$/,
+          use:['style-loader','css-loader','less-loader']
+        },
+        {
+          test:/\.(png|jpg|jpeg|gif)$/,
+          use:[
+              {
+                  loader:"url-loader",
+                  options: {
+                    limit: 3000,
+                    name: `img/[name].[hash:7].[ext]`,
+                    esModule: false
+                  }
+              },
+          ],
+          type: 'javascript/auto'
         }
       ]
     },
